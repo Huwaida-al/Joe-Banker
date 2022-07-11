@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+
+      
+    />
+
+    <title>Komputer Store</title>
+  </head>
+  <body>
+
+    <div class="container-flued bg-info p-2">
+        <div class="container, .bg-secondary ">
+          <h2 class="text-white lead mt-5 p-2">Komputer store</h2>
+        </div>
+      </div>
+  
+
+
+    <div class="container mt-5 mb-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card p-3 mb-2">
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row align-items-center">
+                            <div class="icon"> <i class="bx bxl-mailchimp"></i> </div>
+                            
+                        </div>
+                        
+                    </div>
+
+
+                    <!---Bank Container-->
+                    <div class="mt-5">
+                        <h3 class="heading">Joe Banker</h3>
+                        <div class="mt-5">
+                            
+                            <div style="display: flex; justify-content: space-between">
+                                <p id="bank-balance">Balance</p>
+                                <p id="loan-balance">Loan</p>
+                              </div>
+                              <button
+                              class="btn btn-info btn-block mt-2" 
+                              id="loan-btn"
+                              onclick="myFunction()"
+                            >
+                              Get a loan
+                            </button>
+                
+
+                        </div>
+                        
+
+                    </div>
+                </div>
+            </div>
+
+
+<!--Work-->
+            
+            <div class="col-md-4">
+                <div class="card p-3 mb-2">
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row align-items-center">
+                            <div class="icon"> <i class="bx bxl-dribbble"></i> </div>
+                            
+                        </div>
+                    
+                    </div>
+                    <div class="mt-5">
+                        <h3 class="heading">Work</h3>
+                        <div class="mt-5">
+                          
+                            <div style="display: flex; justify-content: space-between">
+                                <p id="pay">Pay</p>
+                            
+                              </div>
+                              <button class="btn btn-secondary m-4" id="work-btn">work</button>
+                              <button class="btn btn-warning m-4" id="bank-btn">Bank</button>
+                           
+
+                              <button
+                              class="btn btn-info btn-block mt-2" 
+                              id="pay-btn"
+                            >
+                              Pay 
+                            </button>
+                
+
+
+                            </div>
+                 
+
+                            
+
+                    </div>
+                </div>
+            </div>
+
+            <!--Laptops-->
+            <div class="col-md-4">
+                <div class="card p-3 mb-2">
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row align-items-center">
+                            <div class="icon"> <i class="bx bxl-reddit"></i> </div>
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="mt-5">
+                        <h3 class="heading">Laptpos</h3>
+                        <div class="mt-5">
+                           
+                            </div>
+
+                            <!--input of the laptops-->
+                           
+                            <select id="computers">
+                              
+                              </select>
+                              <span id="piceP"></span>
+                              <span id="balance"></span>
+
+                              <p id="features">Computer features</p>
+                              <p><span id="description"></span></p>
+
+
+                            </div> 
+                          </div>
+                          
+                        </div>
+
+
+                        <!--Buy noe-->
+                        <div class="card mb-3" style="max-width: 700px;">
+                            <div class="row no-gutters">
+                              <div class="col-md-4">
+                                <img src="" class="card-img" id="images" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h2><span id="title"></span></h2>
+
+                                  <span class= " display-4"  id="price"></span>
+                                  <span class="display-4" id="value">Kr</span>
+
+
+                                  
+                                  <p><span id="specs"></span></p>
+                                  <p><span id="stock"></span></p>
+
+                                
+                                   
+                                  <button class="btn btn-primary" id="buy-now">buy now</button>
+                                
+
+                                 
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+                       
+
+
+
+                            </div>
+                        
+                    </div>
+               
+                    
+          
+        </div>
+
+        
+        
+        </div>
+    </div>
+</div>
+    </div>
+
+    
+
+    <script src="computer.js"></script>
+  </body>
+</html>
